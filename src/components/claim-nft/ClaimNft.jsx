@@ -19,7 +19,6 @@ const ClaimNft = () => {
                 justifyContent="center"
                 alignItems="center"
                 zIndex="0">
-                
                 <NftCard />
             </Box>
             <Header />

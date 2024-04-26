@@ -10,10 +10,10 @@ const Home = () => {
   return (
     <>
         <Box position="relative" minH="100vh" w="full" overflow="hidden">
-        <Balloon />
-        <Header />
-        <StatBox height={0} farmersPumped={100000}/>
-        <PumpingBox />
+          <Balloon />
+          <Header />
+          <StatBox height={0} farmersPumped={100000}/>
+          <PumpingBox />
         </Box>
     </>
   )

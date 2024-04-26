@@ -44,7 +44,12 @@ const NftCard = () => {
                                 alt='Arrow left'  />
                         </Button>
 
-                        <Input placeholder='Enter Amount' value={1} bgColor={'white'} borderRadius={0} border={'3px solid #000'} />
+                        <Input placeholder='Enter Amount' 
+                            value={1} 
+                            bgColor={'white'} 
+                            borderRadius={0} 
+                            border={'3px solid #000'} 
+                            textAlign={'center'} fontSize={'20px'} />
 
                         <Button bgColor={'#FFE925'} 
                                 p={'10px'}

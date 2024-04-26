@@ -1,9 +1,13 @@
+'use client'
+
 import React from "react";
-import { Flex, Box, Button, Image, Link } from "@chakra-ui/react";
-import NextLink from "next/link";
+import { Flex, Image } from "@chakra-ui/react";
 import { ImageLink } from "./ImageLink";
+import { usePathname } from "next/navigation";
 
 const Header = () => {
+  const pathname = usePathname()
+
   return (
     <Flex
       as="header"
@@ -18,7 +22,7 @@ const Header = () => {
       <Flex align="center" position="relative">
 
         <ImageLink 
-          src="/assets/svgs/nav-home.svg" 
+          src={pathname == '/' ? "/assets/svgs/nav-home-1.svg" :  "/assets/svgs/nav-home-2.svg"}
           alt="Home" 
           width={0}
           height={0}
@@ -29,7 +33,7 @@ const Header = () => {
           href="/" />
 
         <ImageLink 
-          src="/assets/svgs/nav-claim-nft.svg" 
+          src={pathname == '/' ? "/assets/svgs/nav-claim-nft-1.svg" :  "/assets/svgs/nav-claim-nft-2.svg"}
           alt="Claim NFT" 
           width={0}
           height={0}
