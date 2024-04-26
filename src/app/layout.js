@@ -1,8 +1,9 @@
-import { Inter } from "next/font/google";
+import localFont from 'next/font/local'
+import '@fontsource/irish-grover';
 import "./globals.css";
 import { Providers } from "./providers";
 
-const inter = Inter({ subsets: ["latin"] });
+const irishGrover = localFont({ src: '../../public/assets/fonts/irish-grover-latin-400-normal.woff2' })
 
 export const metadata = {
   title: "Pump it!!!",
@@ -12,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={irishGrover.className}>
         <Providers>
           {children}
         </Providers>

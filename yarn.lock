@@ -978,6 +978,21 @@
   resolved "https://registry.npmjs.org/@emotion/weak-memoize/-/weak-memoize-0.3.1.tgz"
   integrity sha512-EsBwpc7hBUJWAsNPBmJy4hxWx12v6bshQsldrVmjxJoc3isbxhOrF2IcCpaXxfvq03NwkI7sbsOLXbYuqF/8Ww==
 
+"@fontsource/irish-grover@^5.0.12":
+  version "5.0.12"
+  resolved "https://registry.npmjs.org/@fontsource/irish-grover/-/irish-grover-5.0.12.tgz"
+  integrity sha512-6JsuDmosGo8OSX89863XNPASdnOTfhd6yXNcpWzz4cF1uotSPkHByuWLd++G7AS9lmv2SH1MJ9gh8/nrRyo6Uw==
+
+"@fontsource/open-sans@^5.0.28":
+  version "5.0.28"
+  resolved "https://registry.npmjs.org/@fontsource/open-sans/-/open-sans-5.0.28.tgz"
+  integrity sha512-hBvJHY76pJT/JynGUB5EXWhnzjYfLdcMn655J5p1v9lTT9HdQSy+keq2KPVXO2Htlg998BBa3p6u/jlrZ6w0kg==
+
+"@fontsource/raleway@^5.0.18":
+  version "5.0.18"
+  resolved "https://registry.npmjs.org/@fontsource/raleway/-/raleway-5.0.18.tgz"
+  integrity sha512-8oPzZe8N7f5XWSUNWn0ygF1bG6HifLGOTo1uWJxLTRVpd+ZPOwF6ztNOGWDIsGwXD+Jy4exbo6mT82Ky0GpILA==
+
 "@isaacs/cliui@^8.0.2":
   version "8.0.2"
   resolved "https://registry.npmjs.org/@isaacs/cliui/-/cliui-8.0.2.tgz"
