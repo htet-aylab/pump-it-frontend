@@ -45,8 +45,9 @@ const PumpAnimal = () => {
                 >
                 <Box>
                     <motion.div 
-                    transition={{ duration: .5 }}
-                    // whileHover={{ scale: 1.1 }}
+                        initial={{ width: "0px", }}
+                        animate={{ width: "100%", }}
+                        transition={{ duration: 1 }}
                     >
                     <Image
                         src="/assets/svgs/pump-guy.svg"

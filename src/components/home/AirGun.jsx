@@ -6,7 +6,10 @@ const AirGun = ({onClick}) => {
   return (
     <>
         <Box position="absolute" bottom={0} right={0} zIndex={4} onClick={onClick}>
-            <Box position={'relative'}>
+            <motion.div style={{ position: 'relative' }} 
+                initial={{ width: "0px", }}
+                animate={{ width: "100%", }}
+                transition={{ duration: 1 }}>
                 <Box transform={"rotate(0deg)"} position={'absolute'} top={'37px'} right={'-40px'}>
                     <motion.div 
                     transition={{ duration: .5 }}
@@ -33,7 +36,7 @@ const AirGun = ({onClick}) => {
                         />
                     </motion.div>
                 </Box>
-            </Box>
+            </motion.div>
       </Box>
     </>
   )
